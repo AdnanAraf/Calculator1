@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.403);
+}
+
+.name{
+    text-align: center;
+    color:orangered;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+}
+
+.calculator{
+    background-color:rgba(0, 0, 0, 0.839);
+    padding:56px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.651) , 0 0 10px rgba(0, 0, 0, 0.651);
+   
+}
+input{
+    grid-column: span 4;
+    width:315px;
+    height:50px;
+    font-size: 40px;
+    text-align: end;
+    border: none;
+    background-color:#ecf0f3; 
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.105) , 0 0 10px rgba(0, 0, 0, 0.99);
+    border-radius: 20px;
+    margin-left: -15px;
+}
+ button{
+   width:55px;
+   height: 55px;
+    background-color: #ecf0f3;
+    box-shadow:   -5px -5px 10px rgba(0, 0, 0, 0.105) , 0 0 10px rgba(0, 0, 0, 0.99);
+    border-radius: 50%;
+    margin: 8px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.click{
+    border-radius: 30%;
+    width:60px;
+}
+.click1{
+   border-radius: 30%;
+   width:95px;
+}
+#dis:hover{
+    background-color: #d39025;
+}
+#dis1:hover{
+   background-color: #4267B2 ;
+}
+#dis2:hover{
+    background-color:rgb(255, 0, 195);
+ }
+ #dis3:hover{
+    background-color:brown;
+ }
+ #dis4:hover{
+    background-color:chartreuse;
+ }
+ #dis5:hover{
+    background-color:yellowgreen;
+ }
+ #dis6:hover{
+    background-color:tomato ;
+ }
+ #dis7:hover{
+    background-color:teal ;
+ }
+ #dis8:hover{
+    background-color:aqua;
+ }
+ #dis9:hover{
+    background-color: violet;
+ }
+ #dis10:hover{
+    background-color:blue;
+ }
+ #dis11:hover{
+    background-color:orangered;
+ }
+ #dis12:hover{
+    background-color: orange;
+ }
+ #dis13:hover{
+    background-color:yellow ;
+ }
+ #dis14:hover{
+    background-color:red ;
+ }
+ #dis15:hover{
+    background-color:#25D366;
+ }
+ #dis:hover{
+    background-color:#1DA1F2 ;
+ }
+ #dis16:hover{
+     background-color:rgb(95, 100, 0);
+ }
+ #dis17:hover{
+     background-color: thistle;
+ }
+ #dis0:hover{
+    background-color: rgb(197, 5, 197);
+}
+#dis18:hover{
+    background-color: rgb(235, 10, 74);
+}
+#dis19:hover{
+    background-color: rgb(10, 234, 13);
+}
+#dis20:hover{
+    background-color: rgb(155, 13, 155);
+}
